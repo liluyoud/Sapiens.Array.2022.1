@@ -4,7 +4,7 @@ namespace Sapiens.Core;
 
 public static class Menu
 {
-    public static void DesenhaTitulo(int tamanho, string titulo)
+    public static void DesenhaTitulo(string titulo, int tamanho = 60)
     {
         if (titulo.Length % 2 == 1)
             titulo += " ";

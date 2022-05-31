@@ -3,15 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sapiens.Core", "Sapiens.Core\Sapiens.Core.csproj", "{2A472640-CDFC-43D5-9D0A-C1AEBAEDB4F2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sapiens.Core", "Sapiens.Core\Sapiens.Core.csproj", "{2A472640-CDFC-43D5-9D0A-C1AEBAEDB4F2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sapiens.Aula4", "Sapiens.Aula4\Sapiens.Aula4.csproj", "{6B047380-F596-439D-AF17-82C001CE7E40}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sapiens.Aula4", "Sapiens.Aula4\Sapiens.Aula4.csproj", "{6B047380-F596-439D-AF17-82C001CE7E40}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sapiens.Aula1", "Sapiens.Aula1\Sapiens.Aula1.csproj", "{E094D052-D597-4BC9-B5BE-1E70F7A56954}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sapiens.Aula1", "Sapiens.Aula1\Sapiens.Aula1.csproj", "{E094D052-D597-4BC9-B5BE-1E70F7A56954}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sapiens.Aula2", "Sapiens.Aula2\Sapiens.Aula2.csproj", "{EB5B37AA-9293-4BFE-84CE-01B81D94917A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sapiens.Aula2", "Sapiens.Aula2\Sapiens.Aula2.csproj", "{EB5B37AA-9293-4BFE-84CE-01B81D94917A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sapiens.Aula3", "Sapiens.Aula3\Sapiens.Aula3.csproj", "{B2414B19-B966-4E9A-A383-57EC9D7E913D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sapiens.Aula3", "Sapiens.Aula3\Sapiens.Aula3.csproj", "{B2414B19-B966-4E9A-A383-57EC9D7E913D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sapiens.Aula5", "Sapiens.Aula5\Sapiens.Aula5.csproj", "{DEE97612-66F9-4E20-9F37-5F31FECD093E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sapiens.WebApp", "Sapiens.WebApp\Sapiens.WebApp.csproj", "{95DDD419-3CE2-45AB-B19F-3F5BFEEDD06B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +43,14 @@ Global
 		{B2414B19-B966-4E9A-A383-57EC9D7E913D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B2414B19-B966-4E9A-A383-57EC9D7E913D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B2414B19-B966-4E9A-A383-57EC9D7E913D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEE97612-66F9-4E20-9F37-5F31FECD093E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEE97612-66F9-4E20-9F37-5F31FECD093E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEE97612-66F9-4E20-9F37-5F31FECD093E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEE97612-66F9-4E20-9F37-5F31FECD093E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95DDD419-3CE2-45AB-B19F-3F5BFEEDD06B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95DDD419-3CE2-45AB-B19F-3F5BFEEDD06B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95DDD419-3CE2-45AB-B19F-3F5BFEEDD06B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95DDD419-3CE2-45AB-B19F-3F5BFEEDD06B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

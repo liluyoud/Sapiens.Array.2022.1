@@ -1,0 +1,24 @@
+﻿@page "/"
+@using Sapiens.Core
+
+<PageTitle>Index</PageTitle>
+
+<h1>Elementos do vetor</h1>
+
+@if (vetor != null)
+{
+    <p>@vetor.Texto()</p>
+}
+
+Welcome to your new app.
+
+<SurveyPrompt Title="How is Blazor working for you?" />
+
+@code {
+    private int[]? vetor;
+
+    protected override async Task OnInitializedAsync()
+    {
+        vetor = Vetor.CriaAleatorio(10);
+    }
+}

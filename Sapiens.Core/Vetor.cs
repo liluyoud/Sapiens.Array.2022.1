@@ -2,6 +2,19 @@
 
 public static class Vetor
 {
+    public static int[] CriaAleatorio(int tamaho)
+    {
+        var vetor = new int[tamaho];
+
+        Random r = new Random();
+        for (int i = 0; i < vetor.Length; i++)
+        {
+            vetor[i] = r.Next(0, 100);
+        }
+
+        return vetor;
+    }
+
     public static string Texto(this int[] vetor)
     {
         var saida = "[";
