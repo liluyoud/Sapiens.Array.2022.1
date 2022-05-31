@@ -15,6 +15,18 @@ public static class Vetor
         return vetor;
     }
 
+    public static int Pesquisa(this int[] vetor, int valor)
+    {
+        for (int i = 0; i < vetor.Length; i++)
+        {
+            if (vetor[i] == valor)
+            {
+                return i;
+            }
+        }
+        return -1;
+    }
+
     public static string Texto(this int[] vetor)
     {
         var saida = "[";
