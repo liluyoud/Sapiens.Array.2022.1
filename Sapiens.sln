@@ -13,9 +13,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sapiens.Aula2", "Sapiens.Au
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sapiens.Aula3", "Sapiens.Aula3\Sapiens.Aula3.csproj", "{B2414B19-B966-4E9A-A383-57EC9D7E913D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sapiens.Aula5", "Sapiens.Aula5\Sapiens.Aula5.csproj", "{DEE97612-66F9-4E20-9F37-5F31FECD093E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sapiens.Aula5", "Sapiens.Aula5\Sapiens.Aula5.csproj", "{DEE97612-66F9-4E20-9F37-5F31FECD093E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sapiens.WebApp", "Sapiens.WebApp\Sapiens.WebApp.csproj", "{95DDD419-3CE2-45AB-B19F-3F5BFEEDD06B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sapiens.WebApp", "Sapiens.WebApp\Sapiens.WebApp.csproj", "{95DDD419-3CE2-45AB-B19F-3F5BFEEDD06B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sapiens.Aula6", "Sapiens.Aula6\Sapiens.Aula6.csproj", "{9A4600B5-195D-4851-8310-1E9E2CB48B73}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{95DDD419-3CE2-45AB-B19F-3F5BFEEDD06B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{95DDD419-3CE2-45AB-B19F-3F5BFEEDD06B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{95DDD419-3CE2-45AB-B19F-3F5BFEEDD06B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A4600B5-195D-4851-8310-1E9E2CB48B73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A4600B5-195D-4851-8310-1E9E2CB48B73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A4600B5-195D-4851-8310-1E9E2CB48B73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A4600B5-195D-4851-8310-1E9E2CB48B73}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
