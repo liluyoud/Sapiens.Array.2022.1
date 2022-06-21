@@ -64,6 +64,8 @@ void Desafio12()
     Console.WriteLine();
 }
 
+// Dado um vetor, verificar cada elemento,
+// e caso ele seja menor que o próximo elemento, mudar ele para 0.
 void Desafio21()
 {
     Console.WriteLine("\nDesafio 21");
@@ -103,12 +105,14 @@ void Desafio22()
     Console.WriteLine();
 }
 
+// Dado um vetor, verificar cada elemento, se existir um outro elemento no
+// vetor com o mesmo valor, transformar os 2 elementos em 0.
 void Desafio3()
 {
     Console.WriteLine("\nDesafio 3");
      var vetor = Vetor.CriaAleatorio(30);
 
-    for (int i = 0; i < vetor.Length - 1; i++)
+    for (int i = 0; i < vetor.Length; i++)
     {
         var numero = vetor[i];
         for (int j = i + 1; j < vetor.Length; j++)
