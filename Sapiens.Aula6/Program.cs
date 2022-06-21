@@ -3,7 +3,8 @@
 Menu.DesenhaTitulo("Desafio de Programação");
 DesafioTeste();
 Desafio11();
-Desafio22();
+Desafio12();
+Desafio21();
 Desafio22();
 Desafio3();
 Console.ReadLine();
